@@ -1,13 +1,11 @@
 CREATE TABLE IF NOT EXISTS hourlyWeather (
-id INTEGER PRIMARY KEY,
-date DATETIME,
+id DATETIME PRIMARY KEY,
 HourlyPrecipitation FLOAT,
 HourlyWindSpeed FLOAT
 );
 
 CREATE TABLE IF NOT EXISTS dailyWeather (
-id INTEGER PRIMARY KEY,
-date DATE,
+id DATE PRIMARY KEY,
 DailyPrecipitation FLOAT,
 DailyWindSpeed FLOAT
 );
