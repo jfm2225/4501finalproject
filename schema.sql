@@ -18,7 +18,8 @@ pickup_longitude FLOAT,
 pickup_latitude FLOAT,
 dropoff_longitude FLOAT,
 dropoff_latitude FLOAT,
-distance FLOAT
+distance FLOAT,
+tip_amount FLOAT
 );
 
 CREATE TABLE IF NOT EXISTS uber (
