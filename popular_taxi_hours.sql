@@ -1,0 +1,27 @@
+
+SELECT 
+COUNT(CASE WHEN pickup_datetime LIKE '%00:%' THEN 1 END) AS '00',
+COUNT(CASE WHEN pickup_datetime LIKE '%01:%' THEN 1 END) AS '01',
+COUNT(CASE WHEN pickup_datetime LIKE '%02:%' THEN 1 END) AS '02',
+COUNT(CASE WHEN pickup_datetime LIKE '%03:%' THEN 1 END) AS '03',
+COUNT(CASE WHEN pickup_datetime LIKE '%04:%' THEN 1 END) AS '04',
+COUNT(CASE WHEN pickup_datetime LIKE '%05:%' THEN 1 END) AS '05',
+COUNT(CASE WHEN pickup_datetime LIKE '%06:%' THEN 1 END) AS '06',
+COUNT(CASE WHEN pickup_datetime LIKE '%07:%' THEN 1 END) AS '07',
+COUNT(CASE WHEN pickup_datetime LIKE '%08:%' THEN 1 END) AS '08',
+COUNT(CASE WHEN pickup_datetime LIKE '%09:%' THEN 1 END) AS '09',
+COUNT(CASE WHEN pickup_datetime LIKE '%10:%' THEN 1 END) AS '10',
+COUNT(CASE WHEN pickup_datetime LIKE '%11:%' THEN 1 END) AS '11',
+COUNT(CASE WHEN pickup_datetime LIKE '%12:%' THEN 1 END) AS '12',
+COUNT(CASE WHEN pickup_datetime LIKE '%13:%' THEN 1 END) AS '13',
+COUNT(CASE WHEN pickup_datetime LIKE '%14:%' THEN 1 END) AS '14',
+COUNT(CASE WHEN pickup_datetime LIKE '%15:%' THEN 1 END) AS '15',
+COUNT(CASE WHEN pickup_datetime LIKE '%16:%' THEN 1 END) AS '16',
+COUNT(CASE WHEN pickup_datetime LIKE '%17:%' THEN 1 END) AS '17',
+COUNT(CASE WHEN pickup_datetime LIKE '%18:%' THEN 1 END) AS '18',
+COUNT(CASE WHEN pickup_datetime LIKE '%19:%' THEN 1 END) AS '19',
+COUNT(CASE WHEN pickup_datetime LIKE '%20:%' THEN 1 END) AS '20',
+COUNT(CASE WHEN pickup_datetime LIKE '%21:%' THEN 1 END) AS '21',
+COUNT(CASE WHEN pickup_datetime LIKE '%22:%' THEN 1 END) AS '22',
+COUNT(CASE WHEN pickup_datetime LIKE '%23:%' THEN 1 END) AS '23'
+FROM taxi
